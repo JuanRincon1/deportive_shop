@@ -5,13 +5,13 @@ public class ProductoDeportivo {
     private String nombre;
     private double precio;
 
-    // Constructor
+    
     public ProductoDeportivo(String nombre, double precio) {
         this.nombre = nombre;
         this.precio = precio;
     }
 
-    // Getters y Setters
+    
     public String getNombre() {
         return nombre;
     }

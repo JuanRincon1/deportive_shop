@@ -5,14 +5,14 @@ public class RopaDeportiva extends ProductoDeportivo {
         private String talla;
         private String material;
     
-        // Constructor
+        
         public RopaDeportiva(String nombre, double precio, String talla, String material) {
             super(nombre, precio);
             this.talla = talla;
             this.material = material;
         }
     
-        // Getters y Setters
+        
         public String getTalla() {
             return talla;
         }

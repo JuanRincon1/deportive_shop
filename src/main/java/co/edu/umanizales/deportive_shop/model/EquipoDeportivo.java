@@ -5,14 +5,14 @@ public class EquipoDeportivo extends ProductoDeportivo {
     private String tipo;
     private double peso;
 
-    // Constructor
+    
     public EquipoDeportivo(String nombre, double precio, String tipo, double peso) {
         super(nombre, precio);
         this.tipo = tipo;
         this.peso = peso;
     }
 
-    // Getters y Setters
+    
     public String getTipo() {
         return tipo;
     }
